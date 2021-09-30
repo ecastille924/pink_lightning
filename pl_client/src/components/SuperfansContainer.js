@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { fetchSuperfans } from '../actions/SuperfansActions' 
+import { fetchSuperfans } from '../actions/SuperfansActions'
+import SuperfansForm from './SuperfansForm' 
 
  class SuperfansContainer extends Component {
    
@@ -11,7 +12,7 @@ import { fetchSuperfans } from '../actions/SuperfansActions'
     render() {
         return (
             <div>
-                Superfans
+                < SuperfansForm />
             </div>
         )
     }
