@@ -7,7 +7,7 @@ import SuperfansContainer from './SuperfansContainer'
 function Router() {
     return (
         <Switch>
-            <Route exact path= '/home' component= {LandingPage} />
+            <Route exact path= '/' component= {LandingPage} />
             <Route exact path = '/shows' component= {ShowsContainer} />
             <Route exact path= '/superfans' component= {SuperfansContainer} />
         </Switch>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchShows } from '../actions/ShowsActions' 
+import ShowsList from './ShowsList'
 
  class ShowsContainer extends Component {
    
@@ -11,7 +12,7 @@ import { fetchShows } from '../actions/ShowsActions'
     render() {
         return (
             <div>
-                Shows
+                <ShowsList />
             </div>
         )
     }

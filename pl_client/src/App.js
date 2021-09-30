@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import ShowsContainer from './components/ShowsContainer';
-import SuperfansContainer from './components/SuperfansContainer';
+import Router from './components/Router';
+import './App.css'
+import Navbar from './components/Navbar';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        < ShowsContainer />
-        < SuperfansContainer />
+      <div className="App">
+        <Navbar/>
+        <Router/>
       </div>
     )
   }
