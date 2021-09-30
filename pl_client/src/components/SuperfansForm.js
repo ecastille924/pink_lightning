@@ -10,7 +10,7 @@ class SuperfansForm extends Component {
         email:"",
     }
     
-    handleInput = (e) => {
+    handleChange = (e) => {
         const { name, value } = e.target
         this.setState({
             [name]: value
@@ -20,6 +20,11 @@ class SuperfansForm extends Component {
     handleSuperfanSubmit = (e) =>{
         e.preventDefault()
         this.props.postSuperfan(this.state)
+        this.setState({
+            firstname:"",
+            lastname:"",
+            email:"",
+        })
     }
     
     render() {
@@ -30,7 +35,7 @@ class SuperfansForm extends Component {
                 name="firstname"  
                 type="text" 
                 value={this.state.firstname} 
-                onChange={this.handleInput} 
+                onChange={this.handleChange} 
                 placeholder="First Name"
             />
             <br/>
@@ -38,7 +43,7 @@ class SuperfansForm extends Component {
                 name="lastname"  
                 type="text" 
                 value={this.state.lastname} 
-                onChange={this.handleInput} 
+                onChange={this.handleChange} 
                 placeholder="Last Name"
             />
             <br/>
@@ -46,7 +51,7 @@ class SuperfansForm extends Component {
                 name="email"  
                 type="text" 
                 value={this.state.email} 
-                onChange={this.handleInput} 
+                onChange={this.handleChange} 
                 placeholder="email address"
             />
             <br/>
@@ -54,7 +59,6 @@ class SuperfansForm extends Component {
                 type="submit" 
                 value="Join!" 
             />
-
             </form>
         )
     }
