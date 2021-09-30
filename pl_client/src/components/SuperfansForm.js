@@ -31,29 +31,41 @@ class SuperfansForm extends Component {
         return (
             <form onSubmit={this.handleSuperfanSubmit} className="form">
             <h3>Join the Superfan Mailing List!</h3>  
+         <label>
             <input 
                 name="firstname"  
                 type="text" 
                 value={this.state.firstname} 
                 onChange={this.handleChange} 
                 placeholder="First Name"
+                className="form-input"
+                required
             />
+          </label>  
             <br/>
+          <label>
             <input 
                 name="lastname"  
                 type="text" 
                 value={this.state.lastname} 
                 onChange={this.handleChange} 
                 placeholder="Last Name"
+                className="form-input"
+                required
             />
+            </label>
             <br/>
+            <label>
             <input 
                 name="email"  
                 type="text" 
                 value={this.state.email} 
                 onChange={this.handleChange} 
                 placeholder="email address"
-            />
+                className="form-input"
+                required
+            /> 
+            </label>
             <br/>
             <input  
                 type="submit" 

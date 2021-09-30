@@ -7,6 +7,7 @@ export default function Navbar() {
             <a href="/" className="navlink">Home</a>
             <a href="/shows" className="navlink">Shows</a>
             <a href="/superfans" className="navlink">Superfans</a>
+            <a href="/gallery" className="navlink">Gallery</a>
         </section>
     )
 }

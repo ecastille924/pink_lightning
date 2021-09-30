@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 
 export default function LandingPage() {
     return (
-        <div>
-            <Navbar />
+        <div className="landing">
+            <img src= '../images/pl_logo.jpg' alt="" className="image" />
         </div>
     )
 }

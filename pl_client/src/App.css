@@ -1,15 +1,82 @@
 .App {
   text-align: center;
+  background-color: black;
+  background-size:contain;
+  background-position-y: 1000px;
+}
+
+.form {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 20px;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09; 
+}
+
+.image {
+  max-width: 300px;
+}
+
+label, input {
+  margin-bottom: 15px;
+}
+
+.landing {
+  padding: 25px;
+  transition: all .8s ease-in-out;
+  display: inline-block;
+}
+
+.landing:hover {
+  transform: scale(1.05);
 }
 
 .navbar {
   padding: 15px;
+  /* background-color: rgb(253, 253, 253);
+  opacity: 25%; */
 }
 
 .navlink {
-  padding: 15px;
+  transition: all .2s ease-in-out;
+  color: rgb(255, 255, 255);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family:monospace;
+  font-size: x-large;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09; 
+}
+
+.navlink:hover {
+  color: rgb(0, 255, 255);
 }
 
 .show-items{
-  padding-bottom: 20px;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09; 
 }
