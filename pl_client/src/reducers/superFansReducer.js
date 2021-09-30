@@ -1,4 +1,4 @@
-export const superFansReducer = (state= [], action) => {
+export const superfansReducer = (state= [], action) => {
     switch(action.type){
         case 'FETCH_SUPERFANS':
             return action.payload
