@@ -1,0 +1,2 @@
+class Superfan < ApplicationRecord
+end

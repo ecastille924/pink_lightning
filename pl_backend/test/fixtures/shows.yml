@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  venue: MyString
+  date: 2021-09-30 12:17:27
+  cover: 1
+  info: MyText
+
+two:
+  venue: MyString
+  date: 2021-09-30 12:17:27
+  cover: 1
+  info: MyText
