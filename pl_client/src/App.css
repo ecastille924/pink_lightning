@@ -170,6 +170,7 @@ label, input {
   background-color: rgba(0, 0, 0, 0.344);
   border: rgb(138, 138, 138);
   border-style:dotted;
+  border-radius: 32px;
 }
 
 .show-items{
