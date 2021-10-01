@@ -32,7 +32,8 @@ class SuperfansForm extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSuperfanSubmit} className="form">
-                <h3>Join the Superfan Mailing List!</h3>  
+                <h3>Join the Superfan Mailing List!</h3> 
+                <br/>
             <label>
                 <input 
                     name="firstname"  
