@@ -2,9 +2,12 @@
   padding-bottom: 50px;
   padding-top: 20px;
   text-align: center;
+  /* background-image: url('/src/bg_image/lightning.png'); */
   background-color: black;
-  background-size:contain;
-  background-position-y: 1000px;
+  background-position: center;
+  height: 2000px;
+  vertical-align: baseline;
+
 }
 
 .form {
@@ -23,6 +26,7 @@
 }
 
 .gallery {
+  padding:15px;
   display: inline-block;
   box-shadow:  
       0 0 2px #fff,
@@ -75,23 +79,41 @@ label, input {
   margin-bottom: 15px;
 }
 
-.landing-image{
-  max-width: 500px;
+.landing {
+  padding-top: 25px;
 }
 
-.landing {
-  padding: 25px;
-  transition: all .8s ease-in-out;
+.landing-image{
+  max-width: 500px;
+  transition: all .6s ease-in-out;
   display: inline-block;
 }
 
-.landing:hover {
-  transform: scale(1.05);
+.landing-image:hover {
+  transform: scale(1.04);
+}
+
+.landing-tag{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-shadow:
+      0 0 2px #fff,
+      0 0 2px #fff,
+      0 0 3px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09; 
 }
 
 .navbar {
   padding: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   /* background-color: rgb(253, 253, 253);
   opacity: 25%; */
 }
@@ -142,6 +164,19 @@ label, input {
       0 0 92px #f09,
       0 0 102px #f09,
       0 0 151px #f09; 
+}
+
+.video-div{
+  display: inline-block;
+  box-shadow:  
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 8px #f09,
+      0 0 10px #f09,
+      0 0 12px #f09,
+      0 0 14px #f09,
+      0 0 16px #f09;
 }
 
 .youtube-clip{

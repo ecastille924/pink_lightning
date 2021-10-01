@@ -2,7 +2,7 @@ import React from 'react'
 
 function Videos() {
     return (
-        <div>
+        <div className="video-div">
             <iframe
                 className="youtube-clip"
                 title="dangerous-woman"
