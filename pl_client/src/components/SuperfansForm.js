@@ -59,7 +59,7 @@ class SuperfansForm extends Component {
             <label>
             <input 
                 name="email"  
-                type="text" 
+                type="email" 
                 value={this.state.email} 
                 onChange={this.handleChange} 
                 placeholder="email address"

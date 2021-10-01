@@ -53,8 +53,6 @@ function Videos() {
                 allowFullScreen 
                 frameBorder="3"> 
             </iframe>
-            
-
         </div>
     )
 }
