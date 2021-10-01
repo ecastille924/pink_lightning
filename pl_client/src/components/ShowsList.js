@@ -5,10 +5,10 @@ function ShowsList({shows}) {
     return (
         <div className="show-div">
             {shows.map(show => 
-                <section key= {show.id} className="show-items">
+                <div key= {show.date} className="show-items">
                     {show.venue} / {show.date} / ${show.cover} <br/>
-                    {show.info}
-                </section>)}
+                    {show.info} 
+                </div>)}
         </div>
     )}
 
