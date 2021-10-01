@@ -39,6 +39,7 @@ class AddShowForm extends Component {
                 value={this.state.venue} 
                 onChange={this.handleChange} 
                 placeholder="Venue"
+                required
             />
             <br/>
             <input 
@@ -47,6 +48,7 @@ class AddShowForm extends Component {
                 value={this.state.date} 
                 onChange={this.handleChange} 
                 placeholder="Date"
+                required
             />
             <br/>
             <input 
@@ -55,6 +57,7 @@ class AddShowForm extends Component {
                 value={this.state.cover} 
                 onChange={this.handleChange} 
                 placeholder="Cover Charge"
+                required
             />
             <br/>
             <input 
@@ -63,6 +66,7 @@ class AddShowForm extends Component {
                 value={this.state.info} 
                 onChange={this.handleChange} 
                 placeholder="Show Details"
+                required
             />
             <br/>
             <input  
