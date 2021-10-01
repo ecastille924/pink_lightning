@@ -39,6 +39,11 @@
       0 0 16px #f09;
 }
 
+.ig-icon {
+  max-width: 20px;
+  vertical-align: middle;
+}
+
 .image {
   transition: all .8s ease-in-out;
   max-width: 225px;
@@ -81,6 +86,7 @@ label, input {
 
 .landing {
   padding-top: 25px;
+  display: inline;
 }
 
 .landing-image{
@@ -104,6 +110,22 @@ label, input {
       0 0 2px #fff,
       0 0 2px #fff,
       0 0 3px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09; 
+}
+
+.landing-sub-tag{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #fff;
+  text-shadow:
+      /* 0 0 2px #fff,
+      0 0 2px #fff,
+      0 0 3px #fff, */
       0 0 42px #f09,
       0 0 82px #f09,
       0 0 92px #f09,
