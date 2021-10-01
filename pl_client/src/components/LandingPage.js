@@ -7,7 +7,7 @@ export default function LandingPage() {
                 <img src= '../images/pl_logo.jpg' alt="" className="landing-image"/>
                 <p className="landing-tag">NYC's premier rock and roll cover band</p>
                 <p className="landing-sub-tag">booking - pinklightningnyc@gmail.com</p>
-                <p><img className="ig-icon" src= '../images/ig_icon.png' alt=""/>"""<a className="landing-sub-tag" href='https://www.instagram.com/pinklightningnyc/?hl=en'>@pinkligntningnyc</a> </p>
+                <p><img className="ig-icon" src= '../images/ig_icon.png' alt=""/>"""<a className="landing-sub-tag" href='https://www.instagram.com/pinklightningnyc/' target="_blank" >@pinkligntningnyc</a> </p>
             </div>
         
     )
