@@ -5,6 +5,7 @@ import LandingPage from './LandingPage'
 import ShowsContainer from './ShowsContainer'
 import SuperfansContainer from './SuperfansContainer'
 import Gallery from './Gallery' 
+import Videos from './Videos'
 
 function Router() {
     return (
@@ -14,6 +15,7 @@ function Router() {
             <Route exact path= '/superfans' component= {SuperfansContainer} />
             <Route exact path= '/addshow' component= {AddShowForm} />
             <Route exact path= '/gallery' component= {Gallery} />
+            <Route exact path= '/videos' component= {Videos} />
         </Switch>
     )
 }

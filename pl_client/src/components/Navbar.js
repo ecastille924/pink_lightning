@@ -8,6 +8,7 @@ export default function Navbar() {
             <a href="/shows" className="navlink">Shows</a>
             <a href="/superfans" className="navlink">Superfans</a>
             <a href="/gallery" className="navlink">Gallery</a>
+            <a href="/videos" className="navlink">Video</a>
         </section>
     )
 }
