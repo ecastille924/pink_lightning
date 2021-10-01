@@ -30,49 +30,54 @@ class SuperfansForm extends Component {
     
     render() {
         return (
-            <form onSubmit={this.handleSuperfanSubmit} className="form">
-            <h3>Join the Superfan Mailing List!</h3>  
-         <label>
-            <input 
-                name="firstname"  
-                type="text" 
-                value={this.state.firstname} 
-                onChange={this.handleChange} 
-                placeholder="First Name"
-                className="form-input"
-                required
-            />
-          </label>  
-            <br/>
-          <label>
-            <input 
-                name="lastname"  
-                type="text" 
-                value={this.state.lastname} 
-                onChange={this.handleChange} 
-                placeholder="Last Name"
-                className="form-input"
-                required
-            />
-            </label>
-            <br/>
+            <div>
+                <form onSubmit={this.handleSuperfanSubmit} className="form">
+                <h3>Join the Superfan Mailing List!</h3>  
             <label>
-            <input 
-                name="email"  
-                type="email" 
-                value={this.state.email} 
-                onChange={this.handleChange} 
-                placeholder="email address"
-                className="form-input"
-                required
-            /> 
-            </label>
-            <br/>
-            <input  
-                type="submit" 
-                value="Join!" 
-            />
-            </form>
+                <input 
+                    name="firstname"  
+                    type="text" 
+                    value={this.state.firstname} 
+                    onChange={this.handleChange} 
+                    placeholder="First Name"
+                    className="form-input"
+                    required
+                />
+            </label>  
+                <br/>
+            <label>
+                <input 
+                    name="lastname"  
+                    type="text" 
+                    value={this.state.lastname} 
+                    onChange={this.handleChange} 
+                    placeholder="Last Name"
+                    className="form-input"
+                    required
+                />
+                </label>
+                <br/>
+                <label>
+                <input 
+                    name="email"  
+                    type="email" 
+                    value={this.state.email} 
+                    onChange={this.handleChange} 
+                    placeholder="email address"
+                    className="form-input"
+                    required
+                /> 
+                </label>
+                <br/>
+                <input  
+                    type="submit" 
+                    value="Join!" 
+                />
+                </form>
+                <p className="landing-sub-tag">
+                    ~ We'll keep you up-to-date with news and upcoming show announcements ~
+                </p>
+            </div>
         )
     }
 }
