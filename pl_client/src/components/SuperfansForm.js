@@ -19,6 +19,7 @@ class SuperfansForm extends Component {
 
     handleSuperfanSubmit = (e) =>{
         e.preventDefault()
+        alert("Thanks for joining & rock on!")
         this.props.postSuperfan(this.state)
         this.setState({
             firstname:"",

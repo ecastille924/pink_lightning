@@ -1,7 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-
 function ShowsList({shows}) {
     return (
         <div className="show-div">
@@ -15,7 +14,5 @@ function ShowsList({shows}) {
 
 const mapStateToProps = (state) => {
     return { shows: state.shows }
-
-
 }
 export default connect(mapStateToProps)(ShowsList)

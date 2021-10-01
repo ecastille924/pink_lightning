@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { postShow } from '../actions/ShowsActions'
+import ShowsContainer from './ShowsContainer'
 
 class AddShowForm extends Component {
     
@@ -31,6 +32,7 @@ class AddShowForm extends Component {
     
     render() {
         return (
+            <div>
             <form onSubmit={this.handleShowSubmit} className="form">
             <h3>Add A Show:</h3>  
             <input 
@@ -74,6 +76,8 @@ class AddShowForm extends Component {
                 value="Add" 
             />
             </form>
+            <ShowsContainer />
+            </div>
         )
     }
 }

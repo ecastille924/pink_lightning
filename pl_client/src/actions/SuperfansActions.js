@@ -6,7 +6,7 @@ export const fetchSuperfans= () => {
     }
 }
 
-export const postSuperfan = superfan => {
+export const postSuperfan = (superfan) => {
     return (dispatch) => {
         fetch('http://localhost:3000/superfans', {
             method: 'POST',

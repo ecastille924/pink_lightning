@@ -6,7 +6,7 @@ export const fetchShows = () => {
     }
 }
 
-export const postShow = show => {
+export const postShow = (show) => {
     return (dispatch) => {
         fetch('http://localhost:3000/shows', {
             method: 'POST',
