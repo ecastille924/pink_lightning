@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { fetchSuperfans } from '../actions/SuperfansActions'
+// import { connect } from 'react-redux'
+// import { fetchSuperfans } from '../actions/SuperfansActions'
 import SuperfansForm from './SuperfansForm' 
 
  class SuperfansContainer extends Component {
    
-    componentDidMount(){
-        this.props.fetchSuperfans()
-    }
+    // componentDidMount(){
+    //     this.props.fetchSuperfans()
+    // }
 
     render() {
         return (
@@ -18,4 +18,5 @@ import SuperfansForm from './SuperfansForm'
     }
 }
 
-export default connect(null, {fetchSuperfans})(SuperfansContainer)
+// export default connect(null, {fetchSuperfans})(SuperfansContainer)
+export default SuperfansContainer
