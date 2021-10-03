@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Videos() {
+const Videos = () => {
     return (
         <div className="video-div">
             <iframe

@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
-import '../App.css'
+import React from 'react'
 
-function Gallery() {
+const Gallery = () => {
     return (
         <div className="gallery">
             <img src= '../images/pl1.jpg' alt="" className="upper-image" />
