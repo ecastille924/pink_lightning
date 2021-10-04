@@ -6,6 +6,7 @@ export const fetchShows = () => {
     }
 }
 
+
 export const postShow = (show) => {
     return (dispatch) => {
         fetch('http://localhost:3000/shows', {
@@ -15,6 +16,5 @@ export const postShow = (show) => {
         })
         .then(resp => resp.json())
         .then(show => dispatch({type: "POST_SHOW", payload: show}))
-    
     }
 }
