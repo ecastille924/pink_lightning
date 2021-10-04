@@ -5,9 +5,10 @@ function SuperfansList({superfans}) {
     return (
         
         <div className="show-div">
-            <p>Thank you to our most recent superfan!!</p>
-            {superfans.reduce((i, superfan) => i = i > superfan.id ? i : (superfan.firstname), 0)}
-            
+            <p className = "landing-sub-tag">Thank you to our most recent superfan!!</p>
+            <p className = "landing-sub-tag">See you at the show, </p>
+            <h2 className = "superfan-name">{superfans.reduce((i, superfan) => 
+                i = i > superfan.id ? i : (superfan.firstname), 0)}!</h2>
         </div>
     )}
 

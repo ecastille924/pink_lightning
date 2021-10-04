@@ -77,7 +77,7 @@ class SuperfansForm extends Component {
                 </form>
                 <p className="landing-sub-tag">
                     ~ We'll keep you up-to-date with news and upcoming show announcements ~
-                </p>
+                </p><br/>
             </div>
         )
     }
