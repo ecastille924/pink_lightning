@@ -164,8 +164,8 @@ label, input {
   padding-left: 45px;
   padding-right: 45px;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.344);
-  border: rgb(138, 138, 138);
+  background-color: rgba(202, 202, 202, 0.22);
+  border: rgb(191, 188, 188);
   border-style:dotted;
   border-radius: 32px;
 }
