@@ -188,10 +188,10 @@ label, input {
 
 .superfan-name{
   color: #fff;
-  /* padding-bottom: 5px;
-  padding-top: 5px; */
+  font-size :30px;
   transition: all 2s ease-in-out;
   display: inline-block;
+  text-align: center;
   text-shadow:
       0 0 16px #fff,
       0 0 35px #fff,
@@ -205,6 +205,11 @@ label, input {
 
 .superfan-name:hover {
   transform: rotate(1080deg);
+}
+
+.ul{
+  list-style-type: none;
+  padding: 0;
 }
 
 .video-div{

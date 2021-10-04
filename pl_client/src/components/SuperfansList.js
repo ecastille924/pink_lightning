@@ -12,7 +12,7 @@ function SuperfansList({superfans}) {
                 i = i > superfan.id ? i : (superfan.firstname), 0)}!</h2> */}
                 
                 {superfans.map(superfan =>
-                     <ul key={superfan.id}> <li key={superfan.firstname} className= "superfan-name">
+                     <ul key={superfan.id} className= "ul"> <li key={superfan.firstname} className= "superfan-name">
                          {superfan.firstname} <br/>
                      </li></ul>)}
         </div>
